@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> sara </title>
+<meta charset="utf-8">
+</head>
+
+<body>
+  <style>
+  label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+div{
+  margin: 10px;
+}
+
+
+
+  </style>
+  <!--este é o first name -->
+  <div>
+  <label for="firstname"> First&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: </label>
+  <input type="text" name="firstname"/>
+</div>
+<!--este é o last name -->
+<div>
+  <label for="lastname"> Last name: </label>
+  <input type="text" name="lastname"/>
+</div>
+<!--este é o idade -->
+<div >
+  <label for="idade"> Idade: </label>
+  <input min="0" max="99" id="idade" type="number" name="idade"/>
+</div>
+<!--este é o sexo -->
+<div>
+  <label style="font-weight: bold;font-size: 20px;" > sexo: </label>
+
+  <label for="feminino"> feminino: </label>
+  <input id="feminino" type="radio" name="sexo"/>
+
+  <label for="masculino"> masculino: </label>
+  <input id="masculino" type="radio" name="sexo"/>
+
+</div>
+<!--este é a mmorada -->
+<div>
+  <label for="morada"> Morada: </label>
+  <input type="text" name="morada"/>
+</div>
+<!--este é o codigo postal -->
+<div>
+  <label for="codigopostal"> Código Postal: </label>
+  <input maxlength="4" type="text" name="codigopostal"/>
+  &nbsp;-&nbsp;
+  <input maxlength="3" type="text" name="codigopostal"/>
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
