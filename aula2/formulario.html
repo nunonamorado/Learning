@@ -15,7 +15,9 @@ div{
   margin: 10px;
 }
 
-
+.center{
+  text-align: center;
+}
 
   </style>
   <!--este é o first name -->
@@ -24,14 +26,14 @@ div{
   <input type="text" name="firstname"/>
 </div>
 <!--este é o last name -->
-<div>
+<div class="center">
   <label for="lastname"> Last name: </label>
-  <input type="text" name="lastname"/>
+  <input type="text" style="text-align: center;"  name="lastname"/>  
 </div>
 <!--este é o idade -->
 <div >
   <label for="idade"> Idade: </label>
-  <input min="0" max="99" id="idade" type="number" name="idade"/>
+  <input min="0" max="99" id="idade" type="number"name="idade"/>
 </div>
 <!--este é o sexo -->
 <div>
@@ -44,6 +46,7 @@ div{
   <input id="masculino" type="radio" name="sexo"/>
 
 </div>
+<div></div>
 <!--este é a mmorada -->
 <div>
   <label for="morada"> Morada: </label>
