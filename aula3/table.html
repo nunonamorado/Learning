@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> tables da sara </title>
+<meta charset="utf-8">
+</head>
+
+<body>
+  <style>
+table{
+  border: 1px dashed red;
+}
+
+td{
+  text-shadow: rgba(33, 35, 203, 0.66) 1px 1px 5px;
+  border: 5px dashed blue;
+}
+
+th{
+  border: 6px dashed yellow;
+}
+
+.center {
+
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+}
+  </style>
+<table class="center">
+  <thead>
+    <!-- cabeçalho -->
+    <tr >
+        <th style="Background-color: rgb(210, 168, 87)">Coluna 1 </th>
+        <th colspan="2">Col 2</th>
+
+    </tr>
+  </head>
+
+  <tbody>
+    <tr>
+        <td>Cel 1x1 </td>
+        <td>Cel 1x2</td>
+        <td>Cel 1x3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Cel 2x1 </td>
+        <td style="padding: 10px">Cel 2x2</td>
+        <td>Cel 2x3</td>
+    </tr>
+    <tr>
+
+        <td style="Background-color: blue">Cel 3x2</td>
+        <td>Cel 3x3</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</head>
