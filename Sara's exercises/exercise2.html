@@ -15,31 +15,36 @@ body{
 #nav{
   float: right;
   padding: 42px 0 0 30px;
+  list-style: none;
 }
 
 #nav li{
   float:left;
   margin: 0 0 0 5px;
+
 }
 
 #nav li a{
   padding: 5px 15px;
   font-weight: bold;
-  color: #ccc;
   color: rgba(255, 255, 255, 0.7);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
   border-radius: 14px;
+  background-color: blue;
 }
 
-#nav li a: hover;
-#nav li a: focus{
-  color: #fff;
-  background: rgba(255, 255, 255, 0.15);
+#nav li a:hover, #nav li a:focus{
+  color: rgba(255, 255, 255, 1.0);
+  background-color: yellow;
 }
 
+#nav li a:active{
+  color: rgba(255, 255, 255, 1.0);
+  background-color: orange;
+}
 </style>
 
 <ul id="nav">
@@ -49,7 +54,7 @@ body{
   <li> <a href="#"> Friends </a> </li>
   <li> <a href="#"> Family </a> </li>
 
-
+</ul>
 
 
 
