@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  width: 30%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+nav ul li {
+  padding: 10px;
+  border-bottom: 2px solid grey;
+}
+
+li.selected{
+  background-color: rgb(217, 185, 218);
+}
+li:active{
+  background-color: grey;
+  color: white;
+}
+
+section.main{
+  overflow: hidden;
+  background-color: rgb(156, 218, 193);
+  position: fixed;
+  left: 0;
+  top: 50;
+}
+
+#content{
+  width: 70%;
+  position: fixed;
+  right: 0;
+  overflow: hidden;
+
+}
+
+header{
+  height: 50px;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer{
+  height: 50px;
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#about-header{
+  background-image: url("http://www.tomilx.pt/uploads/546ba3c5eb7da.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#about-header h1{
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.image-container{
+  margin: 0px auto;
+  width: 70px;
+  position: relative;
+  top: 20;
+}
+
+.image-container img{
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+.about-nav{
+  list-style: none;
+  background-color: rgba(1, 1, 1, 0.48);
+}
+
+.about-nav li{
+display: inline-block;
+padding: 5px 10px;
+}
+
+.about-nav li a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#about-content{
+  background-color:rgb(172, 172, 172);
+}
