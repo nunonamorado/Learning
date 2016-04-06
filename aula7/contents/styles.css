@@ -4,8 +4,7 @@ body{
 }
 
 nav {
-  position: fixed;
-  left: 0;
+  float: left;
   width: 30%;
 }
 
@@ -32,16 +31,11 @@ li:active{
 
 section.main{
   overflow: hidden;
-  background-color: rgb(156, 218, 193);
-  position: fixed;
-  left: 0;
-  top: 50;
 }
 
 #content{
+  float: left;
   width: 70%;
-  position: fixed;
-  right: 0;
   overflow: hidden;
 
 }
@@ -49,16 +43,12 @@ section.main{
 header{
   height: 50px;
   background-color: grey;
-  position: fixed;
-  top: 0;
   width: 100%;
 }
 
 footer{
   height: 50px;
   background-color: grey;
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 
@@ -107,4 +97,37 @@ padding: 5px 10px;
 
 #about-content{
   background-color:rgb(172, 172, 172);
+}
+
+#worst-songs{
+  display: none;
+}
+
+#about-content p{
+  padding:20px 80px;
+  text-align: justify;
+  font-family: fantasy;
+}
+
+.form-group{
+  float: left;
+  padding: 30px 0px ;
+  margin-right: 30px;
+
+}
+
+.form-group input{
+  float: left;
+  clear:both;
+  display: block;
+}
+.clear{
+  clear: both;
+}
+#content{
+  font-family: monospace;
+}
+
+#content h1{
+  font-size: 40px;
 }
