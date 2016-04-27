@@ -4,6 +4,10 @@
   <title> Sara's page </title>
   <link rel="stylesheet" href="../contents/styles.css" media="screen" title="no title" charset="utf-8">
 <meta charset="utf-8">
+<script
+			  src="http://code.jquery.com/jquery-2.2.3.js"
+			  integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
+			  crossorigin="anonymous"></script>
 </head>
 <body>
 <header>Cabeçalho
@@ -17,11 +21,11 @@
     <ul>
       <li> <a href="../index.html">Home</a></li>
       <li> <a href="../about.html"> About </a></li>
-      <li> <a href="../works/index.html">Works</a></li>
-      <li  class="selected"> <a href="../contact.html">Contact</a></li>
+      <li  class="selected"> <a href="../works/index.html">Works</a></li>
+      <li > <a href="../contact.html">Contact</a></li>
     </ul>
   </nav>
-  <section id="content" class="clear-padding">
+  <section id="content" >
     <div class="article-content">
       <h1>Mário Centeno mentiu na comissão de inquérito ao Banif</h1>
       <img src="http://img.obsnocookie.com/s=w800,pd1/o=80/http://s3.observador.pt/wp-content/uploads/2016/04/13154502/mario-centeno08_770x433_acf_cropped.jpg" alt="mario" />
@@ -36,7 +40,20 @@
        compra do Banif pelo Santander. Nesse email enviado por Daniéle Nouy – cujo destinatário não é conhecido (está rasurado) -, a responsável do BCE diz que recebeu uma chamada no dia 18 à noite, de Vítor Constâncio (vice-presidente do BCE) e de Mário Centeno, que lhe pediram para desbloquear a proposta do Santander Totta junto da Comissão Europeia.
 Nessa comunicação é ainda dito que, nesse sábado de manhã, quer a Comissão Europeia quer o Santander Totta já estariam prontos a avançar quando as autoridades portuguesas estivessem prontas.
       </p>
+      <div class="article-comments">
+        <h1>COMENTÁRIOS</h1>
+        <div class="comments-box">
+            <textarea id="comments" rows="8" cols="40" placeholder="Leave your comment, prease"></textarea>
+            <input id="submitbutton" class="comment-button" type="button" name="name" value="submit">
+        </div>
+
+      </div>
+      <div class="comments-container">
+
+
+      </div>
     </div>
+
 </section>
 
 
@@ -48,7 +65,7 @@ Nessa comunicação é ainda dito que, nesse sábado de manhã, quer a Comissão
 
 </footer>
 
-
+<script type="text/javascript" src="../script/comments.js"></script>
 </body>
 
 
